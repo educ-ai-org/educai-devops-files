@@ -22,7 +22,6 @@ services:
       MONGO_HOST: educai
     ports:
       - "8080:8080"
-      - "27017:27017"
   
   ia-api:
     image: node:18-alpine
