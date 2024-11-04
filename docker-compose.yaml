@@ -54,7 +54,7 @@ services:
     networks:
       - educai-network
   
-   ia-api:
+  ia-api:
     image: node:18-slim
     container_name: ia-api
     command: sh -c "apt-get update && apt-get install -y chromium libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 libgtk-3-0 fonts-liberation libgbm-dev libxshmfence1 && npm install && node /home/dist/app.js"
