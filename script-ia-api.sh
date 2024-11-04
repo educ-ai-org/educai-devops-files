@@ -1,2 +1,2 @@
-sudo docker-compose run ia-api npm install
+sudo docker-compose up -d ia-api
 sudo docker-compose restart ia-api
